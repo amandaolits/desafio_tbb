@@ -1,7 +1,7 @@
 # Desafio The Brooklyn Brothers
 
 ## Acesso à aplicação
-
+https://rexona-six.vercel.app/
 ## Objetivo
 Criar um componente de listagem de produtos em que seja possível filtrar pela categoria.
 
