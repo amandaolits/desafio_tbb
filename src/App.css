@@ -1,15 +1,17 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 22px auto;
   width: 95%;
 }
 
 section {
   width: 90%;
   display: flex;
-  overflow: auto;
   justify-content: space-between;
 }
 
@@ -49,11 +51,6 @@ h1 {
   background-color: #fff;
   color: #000;
   border: none;
-}
-
-.search-products button:hover {
-  background-color: #93d7af;
-  border: 2px solid #93d7af;
   cursor: pointer;
 }
 
@@ -68,9 +65,36 @@ h1 {
   color: #828282;
 }
 
+.containerCategory {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#category {
+  display: flex;
+  justify-content: center;
+  min-width: 80px;
+  background-color: #fff;
+  padding: 8px;
+  margin: 4px 2px;
+  color: #140041;
+  border: solid 2px #140041;
+  border-radius: 40px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#category:hover {
+  background-color: #140041;
+  color: #fff;
+}
+
+#banner {
+  display: none;
+}
+
 @media screen and (min-width: 900px) {
-  .search-products button {
-  }
   .App-header {
     flex-direction: row;
     justify-content: space-between;
@@ -82,22 +106,11 @@ h1 {
     width: 30%;
   }
 
-  main {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  aside {
-    width: 40%;
-    align-self: baseline;
-    margin-top: 0px;
-  }
   section {
-    width: 1200px;
-    overflow: auto;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
   }
 
   .containerCategory {
@@ -124,6 +137,7 @@ h1 {
   }
 
   #banner {
+    display: flex;
     width: 100%;
     height: 35%;
     margin-top: 20px;
