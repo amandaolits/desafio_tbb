@@ -28,13 +28,13 @@ section {
 }
 
 h1 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 25px;
   font-weight: 700;
 }
 
 .search-products {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   height: auto;
   width: 80%;
   display: flex;
@@ -44,7 +44,6 @@ h1 {
 }
 
 .search-products button {
-
   width: 10%;
   height: 40px;
   background-color: #fff;
@@ -53,8 +52,8 @@ h1 {
 }
 
 .search-products button:hover {
-  background-color: #93D7AF;
-  border: 2px solid #93D7AF;
+  background-color: #93d7af;
+  border: 2px solid #93d7af;
   cursor: pointer;
 }
 
@@ -62,17 +61,15 @@ h1 {
   height: 50px;
   width: 70%;
   text-align: center;
-  background: #FFFFFF;
-  border: 2px solid #E0E0E0;
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
   box-sizing: border-box;
   border-radius: 8px;
   color: #828282;
-  
 }
 
 @media screen and (min-width: 900px) {
   .search-products button {
-    /* width: 30%; */
   }
   .App-header {
     flex-direction: row;
@@ -101,5 +98,34 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+  }
+
+  .containerCategory {
+    display: flex;
+    justify-content: center;
+  }
+  #category {
+    display: flex;
+    justify-content: center;
+    min-width: 120px;
+    background-color: #fff;
+    padding: 14px;
+    margin: 20px 5px;
+    color: #140041;
+    border: solid 2px #140041;
+    border-radius: 40px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  #category:hover {
+    background-color: #140041;
+    color: #fff;
+  }
+
+  #banner {
+    width: 100%;
+    height: 35%;
+    margin-top: 20px;
   }
 }
